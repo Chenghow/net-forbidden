@@ -1,0 +1,96 @@
+127.0.0.1 localhost
+::1 localhost
+
+#百度系
+0.0.0.0 baidu.com
+0.0.0.0 m.baidu.com
+0.0.0.0 www.baidu.com
+0.0.0.0 haokan.baidu.com
+0.0.0.0 baidu.com
+
+#逼站
+0.0.0.0 bilibili.com
+0.0.0.0 m.bilibili.com
+0.0.0.0 www.bilibili.com
+
+#酷狗系
+0.0.0.0 kugou.com
+0.0.0.0 www.kugou.com
+
+#网易系
+0.0.0.0 3g.163.com
+0.0.0.0 163.com
+0.0.0.0 m.163.com
+0.0.0.0 www.163.com
+0.0.0.0 music.163.com
+0.0.0.0 y.music.163.com
+
+#搜狗
+0.0.0.0 so.com
+0.0.0.0 sougou.com
+0.0.0.0 m.sougou.com
+0.0.0.0 www.sougou.com
+
+#必应
+0.0.0.0 bing.com
+0.0.0.0 m.bing.com
+0.0.0.0 www.bing.com
+
+#steam
+0.0.0.0 steampowered.com
+0.0.0.0 www.steampowered.com
+
+#优酷
+0.0.0.0 youku.com
+0.0.0.0 m.youku.com
+0.0.0.0 www.youku.com
+
+#360系
+0.0.0.0 hao.360.com
+0.0.0.0 h5.mse.360.com
+0.0.0.0 www.hao-360.cn
+0.0.0.0 www.360swdh.com
+0.0.0.0 360.com
+0.0.0.0 www.360.com
+
+#火绒
+0.0.0.0 huorong.cn
+0.0.0.0 www.huorong.cn
+
+#爱奇艺
+0.0.0.0 iqiyi.com
+0.0.0.0 www.iqiyi.com
+0.0.0.0 app.iqiyi.com
+0.0.0.0 live.iqiyi.com
+
+#抖音
+0.0.0.0 www.douyin.com
+0.0.0.0 douyin.com
+
+#土豆
+0.0.0.0 tudou.com
+0.0.0.0 www.tudou.com
+0.0.0.0 movie.tudou.com
+
+#腾讯系
+0.0.0.0 qq.com
+0.0.0.0 y.qq.com
+0.0.0.0 v.qq.com
+0.0.0.0 m.v.qq.com
+0.0.0.0 tencent.com
+
+#搜狐
+0.0.0.0 sohu.com
+0.0.0.0 www.sohu.com
+0.0.0.0 v.sohu.com
+0.0.0.0 m.sohu.com
+
+#乐视
+0.0.0.0 le.com
+0.0.0.0 www.le.com
+0.0.0.0 v.le.com
+
+#酷我
+0.0.0.0 kuwo.cn
+0.0.0.0 www.kuwo.cn
+
