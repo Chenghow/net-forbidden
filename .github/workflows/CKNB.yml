@@ -25,13 +25,13 @@ jobs:
           cd net-forbidden
           mkdir output
           pyinstaller -F netlock.py
-          mv dist/netlock.exe .
           pyinstaller -F unlock.py
-          mv dist/unlock.exe .
-          Remove-Item -Path build -Recurse
-          Remove-Item -Path dist -Recurse
+          mv dist/netlock.exe output/
+          mv dist/unlock.exe output/
+          mv etc output/
+          mv README.md output/
       - name: Upload
         uses: actions/upload-artifact@v2
         with:
           name: Build
-          path: net-forbidden
+          path: net-forbidden/output
