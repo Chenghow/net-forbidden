@@ -4,7 +4,7 @@ netlock.py:锁网
 unlock.py:放网
 
 通过修改hosts的方式使国内的主流网站无法访问
-
+## 没有Python环境？试试[自动构建版本](https://github.com/Chenghow/net-forbidden/actions)
 **脚本仅支持windows系统，请勿使用代理软件**
 # 它有什么用？
 > 对于大部分用户而言，它***毫无作用***
