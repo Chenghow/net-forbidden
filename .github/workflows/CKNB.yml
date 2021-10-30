@@ -1,0 +1,37 @@
+name: Auto-Build
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+    strategy:
+      matrix:
+        arch: [windows]
+    steps:
+      - name: Download Code
+        run: |
+          git clone https://github.com/huoyiming/net-forbidden
+      - name: Dependces
+        run: |
+          cd net-forbidden
+          python3 -m pip install --upgrade pip
+          pip3 install -r requirements.txt
+      - name: Build
+        run: |
+          cd net-forbidden
+          mkdir output
+          pyinstaller -F netlock.py
+          mv dist/netlock.exe .
+          pyinstaller -F unlock.py
+          mv dist/unlock.exe .
+          rm -rf build
+          rm -rf dist
+      - name: Upload
+        uses: actions/upload-artifact@v2
+        with:
+          name: Build
+          path: net-forbidden/output
