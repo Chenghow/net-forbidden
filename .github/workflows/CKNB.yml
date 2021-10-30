@@ -28,8 +28,8 @@ jobs:
           mv dist/netlock.exe .
           pyinstaller -F unlock.py
           mv dist/unlock.exe .
-          rm -rf build
-          rm -rf dist
+          Remove-Item -Path build -Recurse
+          Remove-Item -Path dist -Recurse
       - name: Upload
         uses: actions/upload-artifact@v2
         with:
