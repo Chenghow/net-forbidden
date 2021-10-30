@@ -14,7 +14,7 @@ jobs:
     steps:
       - name: Download Code
         run: |
-          git clone https://github.com/huoyiming/net-forbidden
+          git clone https://github.com/chenghow/net-forbidden
       - name: Dependces
         run: |
           cd net-forbidden
@@ -25,11 +25,11 @@ jobs:
           cd net-forbidden
           mkdir output
           pyinstaller -F netlock.py
-          mv dist/netlock.exe .
           pyinstaller -F unlock.py
-          mv dist/unlock.exe .
-          rm -rf build
-          rm -rf dist
+          mv dist/netlock.exe output/
+          mv dist/unlock.exe output/
+          mv etc output/
+          mv README.md output/
       - name: Upload
         uses: actions/upload-artifact@v2
         with:
