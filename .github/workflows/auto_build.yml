@@ -31,4 +31,8 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: Build
+<<<<<<< HEAD
           path: output
+=======
+          path: net-forbidden/output
+>>>>>>> 15cab7df39231c9db19fe225ea1b0df51e019e6d
